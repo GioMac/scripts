@@ -101,10 +101,11 @@ function progressCallback( $download_size, $downloaded_size, $upload_size, $uplo
 	    else {
 	        $sustained="1";
 	    }
+	    	//set last date and size for downloads
 		$time_prev = $time_now;
 		$prev_size = $downloaded_size;
 	}
-	//set last date and size for downloads
+
     }
 }
 
